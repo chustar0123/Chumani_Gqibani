@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+.horizontal-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Adds space between each item */
+  }
+  
+  .horizontal-container div {
+    align-content: center;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+  }
+  
+#nav{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myName{
+  color: #4756df;
+  font-weight: bold;
+}
+#about{
+    color: #4756df;
+    font-weight: bold;
+}
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust this value to increase/decrease the spacing between the li items in the navbar*/
+}
+#aboutSection{
+    margin-top: 9rem;
+}
+#image{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+    width: 450px;
+}
+#aboutMe{
+    color: black;
+    font-weight: normal;
+    height: 400px;
+    overflow-y: auto;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+@media (max-width: 500px){
+#aboutMe{
+    width: 330px;
+    margin: 0 auto; 
+}
+#image{
+    height: 330px;
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#bgImage{
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.skillImage{
+    height: 50px;
+    width: 50px;
+}
+
+.top-skill{
+    height: 50px;
+    width: 20%;
+    align-content: center;
+    align-items: center;
+    box-shadow:none;
+}
+.skills{
+    text-align: center;
+    margin-top: 6rem;
+    
+}
+#top-project{
+    height: 80%;
+    width: 330px;
+}
+#moreAbout{
+    width: 330px;
+}
+.project-header{
+   
+    margin-top: -5px;
+}
+.projects{
+    margin-top: 6rem;
+}
+#myProjects{
+    margin-top: 1rem;
+    
+}
+}
+@keyframes appearFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%); /* Start from the left */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* End at original position */
+    }
+}
+@keyframes appearFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%); /* Start from the right */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* End at original position */
+    }
+}
+.block {
+    opacity: 0; /* Initially hidden */
+    border-radius: 5px;
+}
+#bgImage {
+    animation: appearFromLeft 0.8s forwards; /* Animate from left */
+}
+#aboutMe {
+    animation: appearFromRight 0.8s forwards; /* Animate from right */
+}
+
+/*My Skills Sections*/
+.skills{
+  text-align: center;
+  margin-top: 4rem;
+}
+.skill-header{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.about-header{
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.top-skill{
+    height: 150px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: center;
+}
+#mySkills{
+    margin-top: 4rem;
+}
+
+/* More About Me Section*/
+.moreAboutMe{
+    text-align: left;
+    margin-top: 1rem;
+}
+/*My Projects Section*/
+.projects{
+    text-align: center;
+    margin-top: 4rem;
+}
+#myProjects{
+    margin-top: 4rem;
+    padding: 0.4rem;
+}
+.project-header{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.top-project{
+    height: 100%;
+    width: 35%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+.project-heading{
+    font-weight: bold;
+    font-family: arial black;
+    margin-top: 5px;
+}
+.project-link{
+    text-decoration: none;
+}
+.projects{
+    margin-top: 6rem;
+}
+.project-details{
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding: 0.9rem;
+}
+.projectImage{
+    margin-top: 5px;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+#contactMe{
+    color: black;
+    font-weight: normal;
+    
+}
+#contact{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.inTouch{
+    font-weight: bold;
+    font-family: arial black;
+    margin-bottom: 3rem;
+}
+footer {
+    background-color: var(--bg-color);
+    
+    text-align: center;
+    margin: 2rem 0 0;
+}
+.link{
+    text-decoration: none;
+}
+.link1{
+    text-decoration: none;
+}
+.socicon {
+    width: 3rem;
+    height: 3rem;
+  }
