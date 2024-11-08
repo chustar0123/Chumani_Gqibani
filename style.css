@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
 html {
     scroll-behavior: smooth;
 }
@@ -33,6 +33,9 @@ html {
 }
 #aboutSection{
     margin-top: 9rem;
+}
+.bgColor{
+    background-color: #f2f2f2;
 }
 #image{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -89,6 +92,7 @@ h3{
 }
 #moreAbout{
     width: 330px;
+    
 }
 .project-header{
    
