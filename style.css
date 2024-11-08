@@ -46,7 +46,7 @@ html {
     overflow-y: auto;
 }
 h2{
-    font-weight: bold;
+    font-family: Sans-serif;
 }
 h3{
     font-weight: bold;
@@ -93,7 +93,7 @@ h3{
 }
 .project-header{
    
-    margin-top: -5px;
+    margin-top: 8rem;
 }
 .projects{
     margin-top: 6rem;
@@ -137,7 +137,7 @@ h3{
 /*My Skills Sections*/
 .skills{
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 .skill-header{
     font-weight: bold;
@@ -145,8 +145,8 @@ h3{
 }
 .about-header{
     font-weight: bold;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -162,30 +162,26 @@ h3{
 }
 
 /* More About Me Section*/
-.moreAboutMe{
+#moreAboutMe{
     text-align: left;
     margin-top: 1rem;
 }
 /*My Projects Section*/
 .projects{
     text-align: center;
-    margin-top: 4rem;
+
 }
-#myProjects{
-    margin-top: 4rem;
-    padding: 0.4rem;
-}
+
 .project-header{
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
 }
 .top-project{
     height: 100%;
     width: 35%;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 50px;
-    margin: auto;
     text-align: center;
 }
 .project-heading{
@@ -196,9 +192,7 @@ h3{
 .project-link{
     text-decoration: none;
 }
-.projects{
-    margin-top: 6rem;
-}
+
 .project-details{
     margin-bottom: 0.5rem;
     text-align: center;
@@ -215,8 +209,8 @@ h3{
     
 }
 #contact{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
 }
 .inTouch{
     font-weight: bold;
